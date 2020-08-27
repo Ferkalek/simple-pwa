@@ -29,7 +29,9 @@ body {
   margin-right: auto;
 }
 
-.tm-main-content { background-color: #ffffff; }
+.tm-main-content {
+  background-color: #ffffff;
+}
 
 #tm-intro-img {
   background-image: url(../img/chilling-cafe-01.jpg);
@@ -38,9 +40,13 @@ body {
   min-height: 425px;
 }
 
-.tm-text-white { color: white; }
+.tm-text-white {
+  color: white;
+}
 
-.tm-page-header-container { text-align: center; }
+.tm-page-header-container {
+  text-align: center;
+}
 
 .tm-page-header {
   display: inline-block;
@@ -76,7 +82,9 @@ td {
   padding: 10px 15px;
 }
 
-.tm-text-left { text-align: left; }
+.tm-text-left {
+  text-align: left;
+}
 
 th {
   color: #333333;
@@ -86,7 +94,9 @@ th {
   padding-right: 15px;
 }
 
-tr:nth-child(odd) { background-color: #e5e8ed; }
+tr:nth-child(odd) {
+  background-color: #e5e8ed;
+}
 
 tr.tm-tr-header {
   background-color: #c4cdd6;
@@ -112,10 +122,18 @@ p {
   line-height: 1.7;
 }
 
-.tm-mb-0 { margin-bottom: 0; }
-img { max-width: 100%; }
-figure { margin: 0; }
-figcaption { text-align: center; }
+.tm-mb-0 {
+  margin-bottom: 0;
+}
+img {
+  max-width: 100%;
+}
+figure {
+  margin: 0;
+}
+figcaption {
+  text-align: center;
+}
 
 figcaption span {
   display: block;
@@ -149,8 +167,12 @@ hr {
   margin-top: 30px;
 }
 
-.tm-social-icons i { font-size: 1.2rem; }
-.tm-social-link-container { display: inline-block; }
+.tm-social-icons i {
+  font-size: 1.2rem;
+}
+.tm-social-link-container {
+  display: inline-block;
+}
 
 .tm-social-link {
   color: white;
@@ -166,7 +188,9 @@ hr {
   transition: all 0.3s ease;
 }
 
-.tm-social-link:hover { background-color: #808e9e; }
+.tm-social-link:hover {
+  background-color: #808e9e;
+}
 
 .tm-contact-link {
   color: #333333;
@@ -174,8 +198,12 @@ hr {
   text-decoration: none;
 }
 
-a { transition: all 0.3s ease; }
-.tm-contact-link:hover { color: #808e9e; }
+a {
+  transition: all 0.3s ease;
+}
+.tm-contact-link:hover {
+  color: #808e9e;
+}
 
 .tm-footer-text {
   font-size: 0.9rem;
@@ -189,7 +217,9 @@ a { transition: all 0.3s ease; }
   text-decoration: none;
 }
 
-.tm-footer-link:hover { color: #c5ced8; }
+.tm-footer-link:hover {
+  color: #c5ced8;
+}
 
 @media (max-width: 550px) {
   .tm-special-item {
@@ -214,12 +244,44 @@ a { transition: all 0.3s ease; }
 }
 
 @media (max-width: 430px) {
-  .tm-responsive-table { overflow-x: auto; }
-  table { width: auto; }
-  .tm-special-items { flex-direction: column; }
-  .tm-special-item { margin-bottom: 40px; }
+  .tm-responsive-table {
+    overflow-x: auto;
+  }
+  table {
+    width: auto;
+  }
+  .tm-special-items {
+    flex-direction: column;
+  }
+  .tm-special-item {
+    margin-bottom: 40px;
+  }
   figcaption p {
     margin-bottom: 0;
     line-height: 1;
   }
+}
+
+.install {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  background-color: #fff;
+  padding: 24px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.install button {
+  color: #996633;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.25rem;
+  padding: 0 24px;
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.install button:hover {
+  color: #714416;
 }
