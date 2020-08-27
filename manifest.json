@@ -1,0 +1,92 @@
+{
+  "dir": "ltr",
+  "lang": "English",
+  "name": "Chilling Cafe",
+  "short_name": "Chilling Cafe",
+  "scope": "/simple-pwa/",
+  "display": "standalone",
+  "start_url": "https://ferkalek.github.io/simple-pwa/",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "description": "",
+  "orientation": "any",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "generated": true,
+  "icons": [
+    {
+      "src": "ico/16x16.png",
+      "size": "16x16"
+    },
+    {
+      "src": "ico/32x32.png",
+      "size": "32x32"
+    },
+    {
+      "src": "ico/36x36.png",
+      "size": "36x36"
+    },
+    {
+      "src": "48x48",
+      "size": "48x48"
+    },
+    {
+      "src": "ico/57x57.png",
+      "size": "57x57"
+    },
+    {
+      "src": "ico/60x60.png",
+      "size": "60x60"
+    },
+    {
+      "src": "ico/70x70.png",
+      "size": "70x70"
+    },
+    {
+      "src": "ico/72x72.png",
+      "size": "72x72"
+    },
+    {
+      "src": "ico/76x76.png",
+      "size": "76x76"
+    },
+    {
+      "src": "ico/96x96.png",
+      "size": "96x96"
+    },
+    {
+      "src": "ico/114x114.png",
+      "size": "114x114"
+    },
+    {
+      "src": "ico/120x120.png",
+      "size": "120x120"
+    },
+    {
+      "src": "ico/120x120.png",
+      "size": "120x120"
+    },
+    {
+      "src": "ico/144x144.png",
+      "size": "144x144"
+    },
+    {
+      "src": "ico/150x150.png",
+      "size": "150x150"
+    },
+    {
+      "src": "ico/180x180.png",
+      "size": "180x180"
+    },
+    {
+      "src": "ico/192x192.png",
+      "size": "192x192"
+    },
+    {
+      "src": "ico/310x310.png",
+      "size": "310x310"
+    }
+  ],
+  "url": "https://ferkalek.github.io/simple-pwa/",
+  "screenshots": []
+}
