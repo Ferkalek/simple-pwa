@@ -48,7 +48,14 @@
       "src": "ico/192x192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "density": "4.0"
+      "density": "4.0",
+      "purpose": "maskable"
+    },
+    {
+      "src": "ico/512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "desity": "5.0"
     }
   ],
   "url": "https://ferkalek.github.io/simple-pwa/",
